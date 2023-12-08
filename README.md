@@ -20,7 +20,11 @@ Pre-process the dataset to remove content that is not part of the lyrics and ini
 
 ## Markovify-generate-text
 
+```
+
 Markovify_generate.ipynb
+
+```
 
 This code is modified from week5.[Text generation with Markov Chains]
  
@@ -32,22 +36,52 @@ The ‘state_size’ parameter of the Markov chain in this model is set to 2, so
 
 Neural-Net
 
-dataprep.py
+```
+
+Neural-Net/dataprep.py
+
+```
 
 perform data set preprocessing, including printing of text length, processing of punctuation marks, lowercase conversion of text, segmentation of text, and mapping of characters to integer indexes.
 
-model.py
+```
+
+Neural-Net/model.py
+
+```
+
 
 define an LSTM model.
 
-Neural-Nets-generate-text-2.ipynb
+```
+
+Neural-Net/Neural-Nets-generate-text-2.ipynb
+
+```
+
 
 Training the model and generating lyrics, postprocessing the generated lyrics
 
 ### 3 recurrent neural network (RNN) layers
 
-Neural-Net-layer3 (Modified by Neural-Net-layer2)
+```
+
+Neural-Net-layer3
+
+```
+
+Modified by Neural-Net-layer2
 
 ## Generated Lyrics
 
+```
+
 <New lyrics>
+
+```
+
+## Example predicted lyrics:
+
+![lyrics generated from Morkov model :](Lyrics_Markov.png)
+
+![lyrics generated from Morkov model :](Lyrics_LSTM.png)
