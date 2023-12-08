@@ -1,8 +1,12 @@
 # MyNLPProject1
 
-Code reference: https://github.com/benjelloo/RapNet 
+Code reference:
 
-https://github.com/vickyyyyyyy/lyrics-lstm/blob/main/preprocess.py
+https://github.com/benjelloo/RapNet (Neural network generated lirics)
+
+https://github.com/vickyyyyyyy/lyrics-lstm/blob/main/preprocess.py (Post-processing of generated lyrics)
+
+The above code was referenced and heavily modified.
 
 In the project, use ChatGPT to help understand some online sample code, and use ChatGPT to help find a solution when part of the code runs wrong.
 
@@ -80,12 +84,10 @@ Modified by Neural-Net-layer2
 
 ```
 
-## Example predicted lyrics:
-
-Lyrics generated from Morkov model
+### Lyrics generated from Morkov model
 
 ![lyrics generated from Morkov model :](Lyrics_Markov.png)
 
-Lyrics generated from LSTM model
+### Lyrics generated from LSTM model
 
 ![lyrics generated from LSTM model :](Lyrics_LSTM.png)
