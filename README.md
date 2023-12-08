@@ -1,13 +1,18 @@
 # MyNLPProject1
 
 Code reference: https://github.com/benjelloo/RapNet 
+
 https://github.com/vickyyyyyyy/lyrics-lstm/blob/main/preprocess.py
 
 In the project, use ChatGPT to help understand some online sample code, and use ChatGPT to help find a solution when part of the code runs wrong.
 
 ## Generate Dataset(Genius-API)
 
+```
+
 crawl-preprocess-datasets.ipynb
+
+```
 
 This code performs the following tasks using the Genius API to retrieve lyrics for a specified artist (Troye Sivan) and saves them to local files for further analysis or use.
 
