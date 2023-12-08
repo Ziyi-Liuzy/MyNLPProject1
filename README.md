@@ -82,6 +82,10 @@ Modified by Neural-Net-layer2
 
 ## Example predicted lyrics:
 
+Lyrics generated from Morkov model
+
 ![lyrics generated from Morkov model :](Lyrics_Markov.png)
 
-![lyrics generated from Morkov model :](Lyrics_LSTM.png)
+Lyrics generated from LSTM model
+
+![lyrics generated from LSTM model :](Lyrics_LSTM.png)
